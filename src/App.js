@@ -6,6 +6,8 @@ import Orders from "./components/Orders/Orders";
 import Offers from "./components/Offers/Offers";
 import About from "./components/About/About";
 import ReviewItem from "./components/ReviewItem/ReviewItem";
+import Login from "./components/Login/Login";
+import SignUp from "./components/SignUp/SignUp";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         </Route>
 
         <Route path="/offers" element={<Offers></Offers>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/signup" element={<SignUp></SignUp>}></Route>
       </Routes>
     </div>
   );
